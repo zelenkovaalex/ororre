@@ -1,0 +1,311 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+  /* iPhone Landscape */
+}
+body {
+  background: url('../img/plashka.png');
+  width: 1440px;
+  height: 2866px;
+  overflow-x: auto;
+  background-repeat: no-repeat;background-repeat
+}
+
+p, h1 {
+  font-family: 'Inter', sans-serif;
+}
+.text1 {
+  margin-top: -108px;
+  margin-left: 758px;
+  font-size: 29px;
+  width: 440px;
+}
+
+
+.sun {
+z-index: 1;
+width: 396px;
+height: 383px;
+margin-top: 258px;
+margin-left: 175px;
+display: inline-block;
+position: relative;
+background: url('../img/sun.png');
+}
+.hands {
+animation: hands 1s steps(1) alternate infinite;
+}
+@keyframes hands {
+0% {background-position: 0px 0;}
+33% {background-position: -396px 0;}
+66% {background-position: -792px 0;}
+}
+
+
+.tuchi {
+  z-index: 2;
+  width: 1440px;
+  height: 1091px;
+  margin-top: -54px;
+  margin-left: 0px;
+  display: inline-block;
+  position: absolute;
+  background: url('../img/tuchi.png');
+}
+.hah {
+animation: hah 7s steps(1) alternate infinite;
+}
+@keyframes hah {
+0% {background-position: 0px 0;}
+20% {background-position: -1440px 0;}
+40% {background-position: -2880px 0;}
+60% {background-position: -4320px 0;}
+80% {background-position: -5760px 0;}
+}
+
+
+.c1{
+  margin-left: 50px;
+  margin-top: -66px;
+  margin-bottom: 15px;
+}
+.c2{
+  margin-left: 1026px;
+  margin-top:-881px;
+  margin-bottom: 15px;
+}
+.c3{
+  margin-left: 43px;
+  margin-top: -272px;
+  margin-bottom: 15px;
+}
+.c4{
+  margin-left: 652px;
+  margin-top: -57px;
+  margin-bottom: 15px;
+}
+
+
+.b1{
+  margin-left: 50px;
+  margin-top: -458px;
+  margin-bottom: 15px;
+}
+.b2{
+  margin-left: 858px;
+  margin-top: -317px;
+  margin-bottom: 15px;
+}
+.b3{
+  margin-left: 524px;
+  margin-top: 573px;
+  margin-bottom: 15px;
+}
+.b4{
+  margin-left: 1133px;
+  margin-top: -396px;
+  margin-bottom: 15px;
+}
+.b5{
+  margin-left: 1236px;
+  margin-top: 154px;
+  margin-bottom: 15px;
+}
+
+
+.p4 {
+  margin-top: 250px;
+  margin-left:  63px;
+  opacity: 0;
+}
+.p4:hover  {
+  animation-play-state: running;
+}
+.p4 {
+  animation: p4 .5s normal linear forwards;
+  animation-play-state: paused;
+}
+@keyframes p4{
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+.forest2{
+  margin-left: -6px;
+  margin-top: -959px;
+  margin-bottom: 15px;
+}
+.forest2{
+  animation: forest2 3s normal linear forwards;
+  animation-play-state: paused;
+}
+.forest2:hover{
+  animation-play-state: running;
+}
+@keyframes forest2{
+  0% {opacity: 1;}
+  99% {opacity: 0;}
+  100% {opacity: 0; display: none;}
+}
+
+
+.forest{
+  margin-left: -6px;
+  margin-top: -352px;
+  margin-bottom: 15px;
+}
+
+
+.flowers {
+  margin-top: -369px;
+  margin-left: -54px;
+  width: 1440px;
+  height: 372px;
+  margin-bottom: 15px;
+  display: inline-block;
+  position: absolute;
+  background: url('../img/flowers.png');
+}
+.down {
+animation: down 3s steps(1) alternate infinite;
+}
+@keyframes down {
+0% {background-position: 0px 0;}
+25% {background-position: -1440px 0;}
+50% {background-position: -2880px 0;}
+75% {background-position: -4320px 0;}
+}
+
+
+.f1{
+  height: 247px;
+  width: 462px;
+  margin-left: 398px;
+  margin-top: -1px;
+  margin-bottom: 15px;
+  display: inline-block;
+  position: absolute;
+  background: url('../img/fish2.png');
+}
+.plav {
+animation: plav 1s steps(1) alternate infinite;
+}
+@keyframes plav {
+0% {background-position: 0px 0;}
+50% {background-position: -462px 0;}
+}
+
+
+.f2{
+  height: 247px;
+  width: 462px;
+  margin-left: 19px;
+  margin-top: 160px;
+  margin-bottom: 15px;
+  display: inline-block;
+  position: absolute;
+  background: url('../img/fish1.png');
+}
+.plav2 {
+animation: plav2 1s steps(1) alternate infinite;
+}
+@keyframes plav2 {
+0% {background-position: 0px 0;}
+50% {background-position: -462px 0;}
+}
+
+
+.t{
+  z-index: auto;
+  height: 569px;
+  width: 546px;
+  margin-left: 905px;
+  margin-top: -3px;
+  margin-bottom: 15px;
+  display: inline-block;
+  position: absolute;
+  background: url('../img/turtule.png');
+}
+.hand {
+animation: hand 1s steps(1) alternate infinite;
+}
+@keyframes hand {
+0% {background-position: 0px 0;}
+50% {background-position: -546px 0;}
+}
+
+
+.c{
+  width: 761px;
+  height: 559px;
+  margin-left: 383px;
+  margin-top: 266px;
+  margin-bottom: 15px;
+  display: inline-block;
+  position: absolute;
+  background: url('../img/crab.png');
+}
+.clash {
+animation: clash 1s steps(1) alternate infinite;
+}
+@keyframes clash {
+0% {background-position: 0px 0;}
+50% {background-position: -761px 0;}
+}
+
+
+.p3 {
+  position: absolute;
+  z-index: -1;
+  border: solid;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: -103px;
+  width: 1440px;
+  height: 216px;
+  background: #101010;
+}
+
+.text2 {
+  margin-top: 516px;
+  margin-left: 50px;
+  margin-bottom: 278px;
+  font-size: 29px;
+}
+
+
+.t2 {
+  position: absolute;
+  left: - 1395px;
+  z-index: 0;
+  /* margin-left: 50px; */
+  margin-top: -77px;
+  left: -1395px;
+}
+.t:hover ~ .t2 {
+  animation: t2 2s linear forwards;
+}
+@keyframes t2{
+  0% {left: -1395px;}
+  100% {left: 50px;}
+}
+
+
+.t3 {
+  z-index: 0;
+  margin-left: 74px;
+  margin-top: -39px;
+  font-size: 27px;
+  color: #fff;
+}
+.t4 {
+  z-index: 0;
+  margin-left: 591px;
+  margin-top: -76px;
+  font-size: 27px;
+  color: #fff;
+}
+.i1 {
+  z-index: 0;
+  margin-left: 1012px;
+  margin-top: -128px;
+}

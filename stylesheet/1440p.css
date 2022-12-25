@@ -66,21 +66,33 @@ animation: hah 7s steps(1) alternate infinite;
   margin-left: 50px;
   margin-top: -66px;
   margin-bottom: 15px;
+  width: 349px;
+  height: 204px;
+  background: url('../img/cloud1.png');
 }
 .c2{
   margin-left: 1026px;
   margin-top:-881px;
   margin-bottom: 15px;
+  width: 371px;
+  height: 227px;
+  background: url('../img/cloud2.png');
 }
 .c3{
   margin-left: 43px;
   margin-top: -272px;
   margin-bottom: 15px;
+  width: 366px;
+  height: 225px;
+  background: url('../img/cloud3.png');
 }
 .c4{
   margin-left: 652px;
   margin-top: -57px;
   margin-bottom: 15px;
+  width: 395px;
+  height: 237px;
+  background: url('../img/cloud4.png');
 }
 
 
@@ -88,26 +100,41 @@ animation: hah 7s steps(1) alternate infinite;
   margin-left: 50px;
   margin-top: -458px;
   margin-bottom: 15px;
+  width: 103px;
+  height: 81px;
+  background: url('../img/bird1.png');
 }
 .b2{
   margin-left: 858px;
   margin-top: -317px;
   margin-bottom: 15px;
+  width: 106px;
+  height: 80px;
+  background: url('../img/bird2.png');
 }
 .b3{
   margin-left: 524px;
   margin-top: 573px;
   margin-bottom: 15px;
+  width: 127px;
+  height: 79px;
+  background: url('../img/bird3.png');
 }
 .b4{
   margin-left: 1133px;
   margin-top: -396px;
   margin-bottom: 15px;
+  width: 159px;
+  height: 66px;
+  background: url('../img/bird4.png');
 }
 .b5{
   margin-left: 1236px;
   margin-top: 154px;
   margin-bottom: 15px;
+  width: 116px;
+  height: 55px;
+  background: url('../img/bird5.png');
 }
 
 
@@ -115,6 +142,9 @@ animation: hah 7s steps(1) alternate infinite;
   margin-top: 250px;
   margin-left:  63px;
   opacity: 0;
+  height: 488px;
+  width: 521px;
+  background: url('../img/plashka2.png')
 }
 .p4:hover  {
   animation-play-state: running;
@@ -133,6 +163,9 @@ animation: hah 7s steps(1) alternate infinite;
   margin-left: -6px;
   margin-top: -959px;
   margin-bottom: 15px;
+  height: 943px;
+  width: 1440px;
+  background: url('../img/forest.png');
 }
 .forest2{
   animation: forest2 3s normal linear forwards;
@@ -152,6 +185,9 @@ animation: hah 7s steps(1) alternate infinite;
   margin-left: -6px;
   margin-top: -352px;
   margin-bottom: 15px;
+  height: 943px;
+  width: 1440px;
+  background: url('../img/forest2.png');
 }
 
 
@@ -307,4 +343,7 @@ animation: clash 1s steps(1) alternate infinite;
   z-index: 0;
   margin-left: 1012px;
   margin-top: -128px;
+  width: 349px;
+  height: 162px;
+  background: url('../img/hse.png');
 }

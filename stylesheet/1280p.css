@@ -14,7 +14,7 @@ p, h1 {
 }
 .text1 {
   margin-top: -108px;
-  margin-left: 758px;
+  margin-left: 692px;
   font-size: 29px;
   width: 440px;
 }
@@ -42,23 +42,23 @@ animation: hands 1s steps(1) alternate infinite;
 
 .tuchi {
   z-index: 2;
-  width: 1440px;
+  width: 1280px;
   height: 1091px;
   margin-top: -54px;
   margin-left: 0px;
   display: inline-block;
   position: absolute;
-  background: url('../img/tuchi.png');
+  background: url('../img/tuchi-1280.png');
 }
 .hah {
 animation: hah 7s steps(1) alternate infinite;
 }
 @keyframes hah {
 0% {background-position: 0px 0;}
-20% {background-position: -1440px 0;}
-40% {background-position: -2880px 0;}
-60% {background-position: -4320px 0;}
-80% {background-position: -5760px 0;}
+20% {background-position: -1280px 0;}
+40% {background-position: -2560px 0;}
+60% {background-position: -3840px 0;}
+80% {background-position: -5120px 0;}
 }
 
 
@@ -66,21 +66,33 @@ animation: hah 7s steps(1) alternate infinite;
   margin-left: 50px;
   margin-top: -66px;
   margin-bottom: 15px;
+  width: 349px;
+  height: 204px;
+  background: url('../img/cloud1.png');
 }
 .c2{
-  margin-left: 1026px;
+  margin-left: 938px;
   margin-top:-881px;
   margin-bottom: 15px;
+  width: 371px;
+  height: 227px;
+  background: url('../img/cloud2.png');
 }
 .c3{
   margin-left: 43px;
   margin-top: -272px;
   margin-bottom: 15px;
+  width: 366px;
+  height: 225px;
+  background: url('../img/cloud3.png');
 }
 .c4{
-  margin-left: 652px;
+  margin-left: 579px;
   margin-top: -57px;
   margin-bottom: 15px;
+  width: 395px;
+  height: 237px;
+  background: url('../img/cloud4.png');
 }
 
 
@@ -88,26 +100,41 @@ animation: hah 7s steps(1) alternate infinite;
   margin-left: 50px;
   margin-top: -458px;
   margin-bottom: 15px;
+  width: 103px;
+  height: 81px;
+  background: url('../img/bird1.png');
 }
 .b2{
   margin-left: 858px;
   margin-top: -317px;
   margin-bottom: 15px;
+  width: 106px;
+  height: 80px;
+  background: url('../img/bird2.png');
 }
 .b3{
   margin-left: 524px;
   margin-top: 573px;
   margin-bottom: 15px;
+  width: 127px;
+  height: 79px;
+  background: url('../img/bird3.png');
 }
 .b4{
-  margin-left: 1133px;
+  margin-left: 1036px;
   margin-top: -396px;
   margin-bottom: 15px;
+  width: 159px;
+  height: 66px;
+  background: url('../img/bird4.png');
 }
 .b5{
-  margin-left: 1236px;
+  margin-left: 1113px;
   margin-top: 154px;
   margin-bottom: 15px;
+  width: 116px;
+  height: 55px;
+  background: url('../img/bird5.png');
 }
 
 
@@ -115,6 +142,9 @@ animation: hah 7s steps(1) alternate infinite;
   margin-top: 250px;
   margin-left:  63px;
   opacity: 0;
+  height: 488px;
+  width: 521px;
+  background: url('../img/plashka2.png')
 }
 .p4:hover  {
   animation-play-state: running;
@@ -133,6 +163,9 @@ animation: hah 7s steps(1) alternate infinite;
   margin-left: -6px;
   margin-top: -959px;
   margin-bottom: 15px;
+  height: 943px;
+  width: 1280px;
+  background: url('../img/forest-1280.png');
 }
 .forest2{
   animation: forest2 3s normal linear forwards;
@@ -149,107 +182,110 @@ animation: hah 7s steps(1) alternate infinite;
 
 
 .forest{
-  margin-left: -6px;
+  margin-left: 2px;
   margin-top: -352px;
   margin-bottom: 15px;
+  height: 943px;
+  width: 1280px;
+  background: url('../img/forest2-1280.png');
 }
 
 
 .flowers {
-  margin-top: -369px;
-  margin-left: -54px;
-  width: 1440px;
+  margin-top: -430px;
+  margin-left: -44px;
+  width: 1280px;
   height: 372px;
   margin-bottom: 15px;
   display: inline-block;
   position: absolute;
-  background: url('../img/flowers.png');
+  background: url('../img/flowers-1280.png');
 }
 .down {
 animation: down 3s steps(1) alternate infinite;
 }
 @keyframes down {
 0% {background-position: 0px 0;}
-25% {background-position: -1440px 0;}
-50% {background-position: -2880px 0;}
-75% {background-position: -4320px 0;}
+25% {background-position: -1280px 0;}
+50% {background-position: -2560px 0;}
+75% {background-position: -38840px 0;}
 }
 
 
 .f1{
   height: 247px;
-  width: 462px;
-  margin-left: 398px;
+  width: 376px;
+  margin-left: 308px;
   margin-top: -1px;
   margin-bottom: 15px;
   display: inline-block;
   position: absolute;
-  background: url('../img/fish2.png');
+  background: url('../img/fish2-1280.png');
 }
 .plav {
 animation: plav 1s steps(1) alternate infinite;
 }
 @keyframes plav {
 0% {background-position: 0px 0;}
-50% {background-position: -462px 0;}
+50% {background-position: -376px 0;}
 }
 
 
 .f2{
   height: 247px;
-  width: 462px;
+  width: 376px;
   margin-left: 19px;
   margin-top: 160px;
   margin-bottom: 15px;
   display: inline-block;
   position: absolute;
-  background: url('../img/fish1.png');
+  background: url('../img/fish1-1280.png');
 }
 .plav2 {
 animation: plav2 1s steps(1) alternate infinite;
 }
 @keyframes plav2 {
 0% {background-position: 0px 0;}
-50% {background-position: -462px 0;}
+50% {background-position: -376px 0;}
 }
 
 
 .t{
   z-index: auto;
   height: 569px;
-  width: 546px;
-  margin-left: 905px;
-  margin-top: -3px;
+  width: 500px;
+  margin-left: 762px;
+  margin-top: -85px;
   margin-bottom: 15px;
   display: inline-block;
   position: absolute;
-  background: url('../img/turtule.png');
+  background: url('../img/turtule-1280.png');
 }
 .hand {
 animation: hand 1s steps(1) alternate infinite;
 }
 @keyframes hand {
 0% {background-position: 0px 0;}
-50% {background-position: -546px 0;}
+50% {background-position: -500px 0;}
 }
 
 
 .c{
-  width: 761px;
-  height: 559px;
+  width: 667px;
+  height: 667px;
   margin-left: 383px;
   margin-top: 266px;
   margin-bottom: 15px;
   display: inline-block;
   position: absolute;
-  background: url('../img/crab.png');
+  background: url('../img/crab-1280.png');
 }
 .clash {
 animation: clash 1s steps(1) alternate infinite;
 }
 @keyframes clash {
 0% {background-position: 0px 0;}
-50% {background-position: -761px 0;}
+50% {background-position: -667px 0;}
 }
 
 
@@ -260,7 +296,7 @@ animation: clash 1s steps(1) alternate infinite;
   width: 100%;
   margin-left: 0px;
   margin-top: -103px;
-  width: 1440px;
+  width: 1280px;
   height: 216px;
   background: #101010;
 }
@@ -277,7 +313,6 @@ animation: clash 1s steps(1) alternate infinite;
   position: absolute;
   left: - 1395px;
   z-index: 0;
-  /* margin-left: 50px; */
   margin-top: -77px;
   left: -1395px;
 }
@@ -299,13 +334,16 @@ animation: clash 1s steps(1) alternate infinite;
 }
 .t4 {
   z-index: 0;
-  margin-left: 591px;
+  margin-left: 488px;
   margin-top: -76px;
   font-size: 27px;
   color: #fff;
 }
 .i1 {
   z-index: 0;
-  margin-left: 1012px;
+  margin-left: 910px;
   margin-top: -128px;
+  width: 349px;
+  height: 162px;
+  background: url('../img/hse.png');
 }

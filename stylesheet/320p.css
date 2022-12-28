@@ -39,13 +39,13 @@ animation: hands 1s steps(1) alternate infinite;
 }
 
 
-/* .tuchi {
+/.tuchi {
   z-index: 2;
   width: 390px;
   height: 670px;
   margin-top: -47px;
   margin-left: 0px;
-  display: inline-block;
+  display: none;
   position: absolute;
   background: url('../img/tuchi-390.png');
 }
@@ -58,7 +58,7 @@ animation: hah 7s steps(1) alternate infinite;
 40% {background-position: -1688px 0;}
 60% {background-position: -2502px 0;}
 80% {background-position: -3336px 0;}
-} */
+}
 
 
 .c1{

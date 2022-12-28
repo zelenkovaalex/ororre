@@ -45,7 +45,7 @@ animation: hands 1s steps(1) alternate infinite;
   height: 670px;
   margin-top: -47px;
   margin-left: 0px;
-  display: inline-block;
+  display: none;
   position: absolute;
   background: url('../img/tuchi-834.png');
 }

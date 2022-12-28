@@ -1,6 +1,5 @@
-@media only screen and (min-width: 1440px) {
-  /* Desktop */
-}
+@media only screen and (min-width: 1440px) and (max-width: 1920px) {
+html {overflow-x: hidden;}
 body {
   background: url('../img/plashka.png');
   width: 1440px;
@@ -315,6 +314,9 @@ animation: clash 1s steps(1) alternate infinite;
   z-index: 0;
   margin-top: -77px;
   left: -1395px;
+  width: 1440px;
+  height: 897px;
+  background: url('../img/trash.png');
 }
 .t:hover ~ .t2 {
   animation: t2 2s linear forwards;
@@ -346,4 +348,5 @@ animation: clash 1s steps(1) alternate infinite;
   width: 349px;
   height: 162px;
   background: url('../img/hse.png');
+}
 }

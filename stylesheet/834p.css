@@ -1,10 +1,9 @@
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* iPad Landscape */
-}
+@media only screen and (min-width: 834px) and (max-width: 1023px) {
+html {overflow-x: hidden;}
 body {
-  background: url('../img/plashka.png');
-  width: 1440px;
-  height: 2866px;
+  background: url('../img/plashka-834.png');
+  width: 834px;
+  height: 1634px;
   overflow-x: auto;
   background-repeat: no-repeat;background-repeat
 }
@@ -13,108 +12,139 @@ p, h1 {
   font-family: 'Inter', sans-serif;
 }
 .text1 {
-  margin-top: -108px;
-  margin-left: 758px;
-  font-size: 29px;
+  margin-top: -89px;
+  margin-left: 437px;
+  font-size: 21px;
   width: 440px;
 }
 
 
 .sun {
 z-index: 1;
-width: 396px;
-height: 383px;
-margin-top: 258px;
-margin-left: 175px;
+width: 262.33px;
+height: 226px;
+margin-top: 173px;
+margin-left: 98px;
 display: inline-block;
 position: relative;
-background: url('../img/sun.png');
+background: url('../img/sun-834.png');
 }
 .hands {
 animation: hands 1s steps(1) alternate infinite;
 }
 @keyframes hands {
 0% {background-position: 0px 0;}
-33% {background-position: -396px 0;}
-66% {background-position: -792px 0;}
+33% {background-position: -282px 0;}
+66% {background-position: -564px 0;}
 }
 
 
 .tuchi {
   z-index: 2;
-  width: 1440px;
-  height: 1091px;
-  margin-top: -54px;
+  width: 834px;
+  height: 670px;
+  margin-top: -47px;
   margin-left: 0px;
   display: inline-block;
   position: absolute;
-  background: url('../img/tuchi.png');
+  background: url('../img/tuchi-834.png');
 }
 .hah {
 animation: hah 7s steps(1) alternate infinite;
 }
 @keyframes hah {
 0% {background-position: 0px 0;}
-20% {background-position: -1440px 0;}
-40% {background-position: -2880px 0;}
-60% {background-position: -4320px 0;}
-80% {background-position: -5760px 0;}
+20% {background-position: -834px 0;}
+40% {background-position: -1688px 0;}
+60% {background-position: -2502px 0;}
+80% {background-position: -3336px 0;}
 }
 
 
 .c1{
-  margin-left: 50px;
-  margin-top: -66px;
+  margin-left: 37px;
+  margin-top: -89px;
   margin-bottom: 15px;
+  width: 199px;
+  height: 118px;
+  background: url('../img/c1-834.png');
 }
 .c2{
-  margin-left: 1026px;
-  margin-top:-881px;
+  margin-left: 595px;
+  margin-top: -533px;
   margin-bottom: 15px;
+  width: 211px;
+  height: 131px;
+  background: url('../img/c2-834.png');
 }
 .c3{
   margin-left: 43px;
-  margin-top: -272px;
+  margin-top: -131px;
   margin-bottom: 15px;
+  width: 209px;
+  height: 130px;
+  background: url('../img/c3-834.png');
 }
 .c4{
-  margin-left: 652px;
-  margin-top: -57px;
+  margin-left: 323px;
+  margin-top: -24px;
   margin-bottom: 15px;
+  width: 225px;
+  height: 137px;
+  background: url('../img/c4-834.png');
 }
 
 
 .b1{
-  margin-left: 50px;
-  margin-top: -458px;
+  margin-left: 20px;
+  margin-top: -257px;
   margin-bottom: 15px;
+  width: 60px;
+  height: 47px;
+  background: url('../img/bird1-834.png');
 }
 .b2{
-  margin-left: 858px;
-  margin-top: -317px;
+  margin-left: 429px;
+  margin-top: -216px;
   margin-bottom: 15px;
+  width: 60px;
+  height: 47px;
+  background: url('../img/bird2-834.png');
 }
 .b3{
-  margin-left: 524px;
-  margin-top: 573px;
+  margin-left: 317px;
+  margin-top: 437px;
   margin-bottom: 15px;
+  width: 73px;
+  height: 46px;
+  background: url('../img/bird3-834.png');
 }
 .b4{
-  margin-left: 1133px;
-  margin-top: -396px;
+  margin-left: 628px;
+  margin-top: -369px;
   margin-bottom: 15px;
+  width: 90px;
+  height: 39px;
+  background: url('../img/bird4-834.png');
 }
 .b5{
-  margin-left: 1236px;
+  margin-left: 722px;
   margin-top: 154px;
   margin-bottom: 15px;
+  width: 66px;
+  height: 31px;
+  background: url('../img/bird5-834.png');
 }
 
 
 .p4 {
-  margin-top: 250px;
-  margin-left:  63px;
+  z-index: 5;
+  margin-top: 153px;
+  margin-left:  35px;
   opacity: 0;
+  height: 305px;
+  width: 328px;
+  background: url('../img/plashka2-834.png')
 }
 .p4:hover  {
   animation-play-state: running;
@@ -130,9 +160,12 @@ animation: hah 7s steps(1) alternate infinite;
 
 
 .forest2{
-  margin-left: -6px;
-  margin-top: -959px;
+  margin-left: 2px;
+  margin-top: -607px;
   margin-bottom: 15px;
+  height: 594px;
+  width: 834px;
+  background: url('../img/forest-834.png');
 }
 .forest2{
   animation: forest2 3s normal linear forwards;
@@ -149,107 +182,110 @@ animation: hah 7s steps(1) alternate infinite;
 
 
 .forest{
-  margin-left: -6px;
-  margin-top: -352px;
+  margin-left: 2px;
+  margin-top: -295px;
   margin-bottom: 15px;
+  height: 594px;
+  width: 834px;
+  background: url('../img/forest2-834.png');
 }
 
 
 .flowers {
-  margin-top: -369px;
-  margin-left: -54px;
-  width: 1440px;
-  height: 372px;
+  margin-top: -269px;
+  margin-left: -26px;
+  width: 834px;
+  height: 268px;
   margin-bottom: 15px;
   display: inline-block;
   position: absolute;
-  background: url('../img/flowers.png');
+  background: url('../img/flowers-834.png');
 }
 .down {
 animation: down 3s steps(1) alternate infinite;
 }
 @keyframes down {
 0% {background-position: 0px 0;}
-25% {background-position: -1440px 0;}
-50% {background-position: -2880px 0;}
-75% {background-position: -4320px 0;}
+25% {background-position: -834 0;}
+50% {background-position: -1668px 0;}
+75% {background-position: -2502px 0;}
 }
 
 
 .f1{
-  height: 247px;
-  width: 462px;
-  margin-left: 398px;
-  margin-top: -1px;
+  height: 169px;
+  width: 257px;
+  margin-left: 270px;
+  margin-top: -44px;
   margin-bottom: 15px;
   display: inline-block;
   position: absolute;
-  background: url('../img/fish2.png');
+  background: url('../img/fish2-834.png');
 }
 .plav {
 animation: plav 1s steps(1) alternate infinite;
 }
 @keyframes plav {
 0% {background-position: 0px 0;}
-50% {background-position: -462px 0;}
+50% {background-position: -262px 0;}
 }
 
 
 .f2{
-  height: 247px;
-  width: 462px;
+  height: 158px;
+  width: 260px;
   margin-left: 19px;
-  margin-top: 160px;
+  margin-top: 44px;
   margin-bottom: 15px;
   display: inline-block;
   position: absolute;
-  background: url('../img/fish1.png');
+  background: url('../img/fish1-834.png');
 }
 .plav2 {
 animation: plav2 1s steps(1) alternate infinite;
 }
 @keyframes plav2 {
 0% {background-position: 0px 0;}
-50% {background-position: -462px 0;}
+50% {background-position: -262px 0;}
 }
 
 
 .t{
   z-index: auto;
-  height: 569px;
-  width: 546px;
-  margin-left: 905px;
-  margin-top: -3px;
+  height: 330px;
+  width: 311px;
+  margin-left: 523px;
+  margin-top: -93px;
   margin-bottom: 15px;
   display: inline-block;
   position: absolute;
-  background: url('../img/turtule.png');
+  background: url('../img/turtule-834.png');
 }
 .hand {
 animation: hand 1s steps(1) alternate infinite;
 }
 @keyframes hand {
 0% {background-position: 0px 0;}
-50% {background-position: -546px 0;}
+50% {background-position: -311px 0;}
 }
 
 
 .c{
-  width: 761px;
-  height: 559px;
-  margin-left: 383px;
-  margin-top: 266px;
+  width: 423px;
+  height: 303px;
+  margin-left: 256px;
+  margin-top: 122px;
   margin-bottom: 15px;
   display: inline-block;
   position: absolute;
-  background: url('../img/crab.png');
+  background: url('../img/crab-834.png');
 }
 .clash {
 animation: clash 1s steps(1) alternate infinite;
 }
 @keyframes clash {
 0% {background-position: 0px 0;}
-50% {background-position: -761px 0;}
+50% {background-position: -423px 0;}
 }
 
 
@@ -259,17 +295,17 @@ animation: clash 1s steps(1) alternate infinite;
   border: solid;
   width: 100%;
   margin-left: 0px;
-  margin-top: -103px;
-  width: 1440px;
-  height: 216px;
+  margin-top: -69px;
+  width: 834px;
+  height: 138px;
   background: #101010;
 }
 
 .text2 {
-  margin-top: 516px;
-  margin-left: 50px;
+  margin-top: 243px;
+  margin-left: 33px;
   margin-bottom: 278px;
-  font-size: 29px;
+  font-size: 21px;
 }
 
 
@@ -277,35 +313,41 @@ animation: clash 1s steps(1) alternate infinite;
   position: absolute;
   left: - 1395px;
   z-index: 0;
-  /* margin-left: 50px; */
-  margin-top: -77px;
+  margin-top: -60px;
   left: -1395px;
+  width: 842px;
+  height: 523px;
+  background: url('../img/trash-834.png');
 }
 .t:hover ~ .t2 {
   animation: t2 2s linear forwards;
 }
 @keyframes t2{
   0% {left: -1395px;}
-  100% {left: 50px;}
+  100% {left: 5px;}
 }
 
 
 .t3 {
   z-index: 0;
-  margin-left: 74px;
-  margin-top: -39px;
-  font-size: 27px;
+  margin-left: 40px;
+  margin-top: -133px;
+  font-size: 20px;
   color: #fff;
 }
 .t4 {
   z-index: 0;
-  margin-left: 591px;
-  margin-top: -76px;
-  font-size: 27px;
+  margin-left: 335px;
+  margin-top: -61px;
+  font-size: 20px;
   color: #fff;
 }
 .i1 {
   z-index: 0;
-  margin-left: 1012px;
-  margin-top: -128px;
+  margin-left: 589px;
+  margin-top: -88px;
+  width: 207px;
+  height: 99px;
+  background: url('../img/hse-834.png');
+}
 }

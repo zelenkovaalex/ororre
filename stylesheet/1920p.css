@@ -1,0 +1,353 @@
+@media only screen and (min-width: 1920px) and (max-width: 2560px) {
+html {overflow-x: hidden;}
+}
+body {
+  background: url('../img/plashka-1920.png');
+  width: 1920px;
+  height: 3758px;
+  overflow-x: auto;
+  background-repeat: no-repeat;background-repeat
+}
+
+p, h1 {
+  font-family: 'Inter', sans-serif;
+}
+.text1 {
+  margin-top: -196px;
+  margin-left: 1010px;
+  font-size: 41px;
+  width: 542px;
+}
+
+
+.sun {
+z-index: 1;
+width: 520px;
+height: 498px;
+margin-top: 389px;
+margin-left: 175px;
+display: inline-block;
+position: relative;
+background: url('../img/sun-1920.png');
+}
+.hands {
+animation: hands 1s steps(1) alternate infinite;
+}
+@keyframes hands {
+0% {background-position: 0px 0;}
+33% {background-position: -529px 0;}
+66% {background-position: -1058px 0;}
+}
+
+
+/* .tuchi {
+  z-index: 2;
+  width: 1920px;
+  height: 1313px;
+  margin-top: -54px;
+  margin-left: 0px;
+  display: inline-block;
+  position: absolute;
+  background: url('../img/tuchi-1920.png');
+}
+.hah {
+animation: hah 7s steps(1) alternate infinite;
+}
+@keyframes hah {
+0% {background-position: 0px 0;}
+20% {background-position: -1920px 0;}
+40% {background-position: -3840px 0;}
+60% {background-position: -5760px 0;}
+80% {background-position: -7680px 0;}
+} */
+
+
+.c1{
+  margin-left: 50px;
+  margin-top: -70px;
+  margin-bottom: 15px;
+  width: 457px;
+  height: 267px;
+  background: url('../img/c1-1920.png');
+}
+.c2{
+  margin-left: 1390px;
+  margin-top: -1240px;
+  margin-bottom: 15px;
+  width: 486px;
+  height: 297px;
+  background: url('../img/c2-1920.png');
+}
+.c3{
+  margin-left: 43px;
+  margin-top: -272px;
+  margin-bottom: 15px;
+  width: 479px;
+  height: 294px;
+  background: url('../img/c3-1920.png');
+}
+.c4{
+  margin-left: 845px;
+  margin-top: -127px;
+  margin-bottom: 15px;
+  width: 517px;
+  height: 310px;
+  background: url('../img/c4-1920.png');
+}
+
+
+.b1{
+  margin-left: 50px;
+  margin-top: -641px;
+  margin-bottom: 15px;
+  width: 133px;
+  height: 105px;
+  background: url('../img/bird1-1920.png');
+}
+.b2{
+  margin-left: 858px;
+  margin-top: -457px;
+  margin-bottom: 15px;
+  width: 137px;
+  height: 104px;
+  background: url('../img/bird2-1920.png');
+}
+.b3{
+  margin-left: 737px;
+  margin-top: 644px;
+  margin-bottom: 15px;
+  width: 165px;
+  height: 103px;
+  background: url('../img/bird3-1920.png');
+}
+.b4{
+  margin-left: 1459px;
+  margin-top: -490px;
+  margin-bottom: 15px;
+  width: 208px;
+  height: 86px;
+  background: url('../img/bird4-1920.png');
+}
+.b5{
+  margin-left: 1543px;
+  margin-top: 324px;
+  margin-bottom: 15px;
+  width: 151px;
+  height: 71px;
+  background: url('../img/bird5-1920.png');
+}
+
+
+.p4 {
+  margin-top: 395px;
+  margin-left:  63px;
+  opacity: 0;
+  height: 589px;
+  width: 643px;
+  background: url('../img/plashka2-1920.png')
+}
+.p4:hover  {
+  animation-play-state: running;
+}
+.p4 {
+  animation: p4 .5s normal linear forwards;
+  animation-play-state: paused;
+}
+@keyframes p4{
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+.forest2{
+  margin-left: 79px;
+  margin-top: -1267px;
+  margin-bottom: 15px;
+  height: 1254px;
+  width: 1753px;
+  background: url('../img/forest-1920.png');
+}
+.forest2{
+  animation: forest2 3s normal linear forwards;
+  animation-play-state: paused;
+}
+.forest2:hover{
+  animation-play-state: running;
+}
+@keyframes forest2{
+  0% {opacity: 1;}
+  99% {opacity: 0;}
+  100% {opacity: 0; display: none;}
+}
+
+
+.forest{
+  margin-left: 79px;
+  margin-top: -733px;
+  margin-bottom: 15px;
+  height: 1254px;
+  width: 1753px;
+  background: url('../img/forest2-1920.png');
+}
+
+
+.flowers {
+  margin-top: -464px;
+  margin-left: 13px;
+  width: 1737px;
+  height: 455px;
+  margin-bottom: 15px;
+  display: inline-block;
+  position: absolute;
+  background: url('../img/flowers-1920.png');
+}
+.down {
+animation: down 3s steps(1) alternate infinite;
+}
+@keyframes down {
+0% {background-position: 0px 0;}
+25% {background-position: -1737px 0;}
+50% {background-position: -3474px 0;}
+75% {background-position: -5211px 0;}
+}
+
+
+.f1{
+  height: 317px;
+  width: 617px;
+  margin-left: 458px;
+  margin-top: 43px;
+  margin-bottom: 15px;
+  display: inline-block;
+  position: absolute;
+  background: url('../img/fish2-1920.png');
+}
+.plav {
+animation: plav 1s steps(1) alternate infinite;
+}
+@keyframes plav {
+0% {background-position: 0px 0;}
+50% {background-position: -610px 0;}
+}
+
+
+.f2{
+  height: 317px;
+  width: 596px;
+  margin-left: 19px;
+  margin-top: 322px;
+  margin-bottom: 15px;
+  display: inline-block;
+  position: absolute;
+  background: url('../img/fish1-1920.png');
+}
+.plav2 {
+animation: plav2 1s steps(1) alternate infinite;
+}
+@keyframes plav2 {
+0% {background-position: 0px 0;}
+50% {background-position: -610px 0;}
+}
+
+
+.t{
+  z-index: auto;
+  height: 749px;
+  width: 701px;
+  margin-left: 1166px;
+  margin-top: 18px;
+  margin-bottom: 15px;
+  display: inline-block;
+  position: absolute;
+  background: url('../img/turtule-1920.png');
+}
+.hand {
+animation: hand 1s steps(1) alternate infinite;
+}
+@keyframes hand {
+0% {background-position: 0px 0;}
+50% {background-position: -701px 0;}
+}
+
+
+.c{
+  width: 967px;
+  height: 700px;
+  margin-left: 513px;
+  margin-top: 513px;
+  margin-bottom: 15px;
+  display: inline-block;
+  position: absolute;
+  background: url('../img/crab-1920.png');
+}
+.clash {
+animation: clash 1s steps(1) alternate infinite;
+}
+@keyframes clash {
+0% {background-position: 0px 0;}
+50% {background-position: -967px 0;}
+}
+
+
+.p3 {
+  position: absolute;
+  z-index: -1;
+  border: solid;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: -103px;
+  width: 1920px;
+  height: 216px;
+  background: #101010;
+}
+
+.text2 {
+  margin-top: 811px;
+  margin-left: 50px;
+  margin-bottom: 278px;
+  font-size: 41px;
+}
+
+
+.t2 {
+  position: absolute;
+  left: - 1395px;
+  z-index: 0;
+  margin-top: 41px;
+  left: -1850px;
+  width: 1903px;
+  height: 1085px;
+  background: url('../img/trash-1920.png');
+}
+.t:hover ~ .t2 {
+  animation: t2 2s linear forwards;
+}
+@keyframes t2{
+  0% {left: -1858px;}
+  100% {left: 20px;}
+}
+
+
+.t3 {
+  z-index: 0;
+  margin-left: 74px;
+  margin-top: -3px;
+  font-size: 36px;
+  color: #fff;
+}
+.t4 {
+  z-index: 0;
+  margin-left: 807px;
+  margin-top: -107px;
+  font-size: 36px;
+  color: #fff;
+}
+.i1 {
+  z-index: 0;
+  margin-left: 1413px;
+  margin-top: -168px;
+  width: 458px;
+  height: 213px;
+  background: url('../img/hse-1920.png');
+}
+}
